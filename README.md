@@ -1,15 +1,21 @@
 # 이용 방법
 먼저 config.py 파일에 DB의 접속 정보를 작성합니다.
+
 이후 cmd나 터미널에서 pip install -r requirements.txt 명령을 통해 실행 환경을 설정합니다.
+
 코드를 작성한 파이썬 버전은 3.8 입니다.
 
 설정이 완료되었으면 터미널에서 flask run 명령어를 통해 서버를 실행할 수 있습니다.
 
 #API 설명
 API는 크게 네개로
+
 환자의 통계를 확인할 수 있는 person
+
 방문자 통계를 확인할 수 있는 visit
+
 테이블 별 concept_id 정보를 확인할 수 있는 concept
+
 테이블 별 row 검색이 가능한 search 입니다.
 
 person api 정보-
