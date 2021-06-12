@@ -38,4 +38,4 @@ concept api 정보-
 search api 정보-
 |method|url|response|
 |---|---|---|
-|GET|/search/<table>?<keyword>=&page=|table로 테이블을 쿼리, <keyword>로 필터링할 수 있으며 keyword의 수는 제한 없음, page로 페이지네이션|
+|GET|/search/:table?:keyword=&page=|:table로 테이블을 쿼리, :keyword로 필터링할 수 있으며 keyword의 수는 제한 없음, page로 페이지네이션|
